@@ -1,0 +1,10 @@
+let arr = [10, 22, 25, 7, 19];
+let find = false;
+for(let i = 0; i<arr.length;i++){
+  if(arr[i]===25){
+    find=true;
+    break;
+  }
+}
+console.log(find);
+
